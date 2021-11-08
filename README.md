@@ -13,6 +13,7 @@ The completed application should meet the following criteria:
 * As a user, I can conduct additional searches from the results page as well.
 
 
+
 ### The Homepage
 
 The homepage (`index.html`) should have the following:
