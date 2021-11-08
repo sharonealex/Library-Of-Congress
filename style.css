@@ -13,11 +13,23 @@ body {
 .card {
     background-color: cornflowerblue;
     padding: 40px;
-    border: 5px cornflowerblue solid;
+    border: 5px black solid;
     border-radius: 10px;
+    flex: 1 1 30%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+}
 
+.card-results{
+    background-color: cornflowerblue;
+    padding: 40px;
+    border: 5px black solid;
+    border-radius: 10px;
+    flex: 1 1 100%;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 
 .card *  {
@@ -28,4 +40,8 @@ border-radius: 6px;
 
 button {
     background-color: darkgreen;
+}
+
+#go-back {
+    background-color:yellow;
 }
