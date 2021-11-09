@@ -8,7 +8,7 @@ function handleFormSubmit (){
     var formatInputVal = formatEl.value.trim();
     if(searchInputVal){
         var queryString = './search-results.html?q=' + searchInputVal + '&format=' + formatInputVal;
-        document.location.assign("./search-results.html?" + queryString);
+        document.location.assign(queryString);
     }
 }
 
